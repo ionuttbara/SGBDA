@@ -53,9 +53,7 @@ Dezavantaje:
 Autori: Bara și Brad
 
 # TO-DO
-sa respecte cele 3 forme normale
-diagramele er , relation
-
+aplicatia + documentatia
 
 # for relation model avem:
 
