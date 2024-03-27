@@ -25,7 +25,7 @@ ADD CONSTRAINT CK_Financing_Rata_Positive CHECK (Rata >= 0);
 -- Adăugare trigger pentru a verifica suma ratei și a dobânzii înainte de inserarea în tabela Financing
 CREATE TRIGGER CheckRateDobanda
 ON Financing
-BEFORE INSERT
+INSTEAD OF INSERT
 AS
 BEGIN
     DECLARE @SumaTotala DECIMAL(10, 2);
@@ -37,5 +37,5 @@ BEGIN
     BEGIN
         RAISEERROR('Suma totala a ratei si dobanzii trebuie sa fie mai mica sau egala cu 1000.00.', 16, 1);
         ROLLBACK TRANSACTION;
-    END
+    END;
 END;

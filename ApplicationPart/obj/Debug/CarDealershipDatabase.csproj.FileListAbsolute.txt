@@ -1,78 +1,82 @@
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\CarDealershipDatabase.exe.config
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\CarDealershipDatabase.exe
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\CarDealershipDatabase.pdb
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\obj\Debug\CarDealershipDatabase.csproj.AssemblyReference.cache
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\obj\Debug\CarDealershipDatabase.Form1.resources
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\obj\Debug\CarDealershipDatabase.Properties.Resources.resources
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\obj\Debug\CarDealershipDatabase.csproj.GenerateResource.cache
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\obj\Debug\CarDealershipDatabase.csproj.CoreCompileInputs.cache
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\obj\Debug\CarDealershipDatabase.exe
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\obj\Debug\CarDealershipDatabase.pdb
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\Azure.Core.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\Azure.Identity.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\Microsoft.Data.SqlClient.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\Microsoft.Identity.Client.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\Microsoft.IdentityModel.Logging.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\Microsoft.IdentityModel.Protocols.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\Microsoft.IdentityModel.Tokens.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\Net.Code.ADONet.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\System.Buffers.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\System.ComponentModel.Annotations.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\System.Configuration.ConfigurationManager.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\System.Diagnostics.DiagnosticSource.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\System.Linq.Async.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\System.Memory.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\System.Numerics.Vectors.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\System.Security.AccessControl.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\System.Security.Cryptography.ProtectedData.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\System.Security.Permissions.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\System.Security.Principal.Windows.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\System.Text.Encodings.Web.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\System.Text.Json.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\System.Threading.Tasks.Extensions.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\System.ValueTuple.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\Azure.Core.xml
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\Azure.Identity.xml
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\Microsoft.Data.SqlClient.pdb
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\Microsoft.Data.SqlClient.xml
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\Microsoft.Identity.Client.xml
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.xml
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\Microsoft.IdentityModel.Logging.xml
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\Microsoft.IdentityModel.Protocols.xml
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\Microsoft.IdentityModel.Tokens.xml
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\System.Buffers.xml
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\System.Configuration.ConfigurationManager.xml
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\System.Diagnostics.DiagnosticSource.xml
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\System.Linq.Async.xml
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\System.Memory.xml
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\System.Numerics.Vectors.xml
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\System.Security.AccessControl.xml
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\System.Security.Permissions.xml
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\System.Security.Principal.Windows.xml
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\System.Text.Encodings.Web.xml
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\System.Text.Json.xml
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\System.Threading.Tasks.Extensions.xml
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\System.ValueTuple.xml
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\obj\Debug\CarDeale.D9B5A6DA.Up2Date
-E:\Projects\Development\Visual Studio\Repositories\CarDealershipDatabase\obj\Debug\CarDealershipDatabase.AddBrandForm.resources
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\CarDealershipDatabase.exe.config
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\CarDealershipDatabase.exe
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\CarDealershipDatabase.pdb
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\Azure.Core.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\Azure.Identity.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\Microsoft.Data.SqlClient.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\Microsoft.Identity.Client.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\Microsoft.IdentityModel.Logging.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\Net.Code.ADONet.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\System.Buffers.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\System.ComponentModel.Annotations.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\System.Configuration.ConfigurationManager.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\System.Linq.Async.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\System.Memory.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\System.Numerics.Vectors.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\System.Security.AccessControl.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\System.Security.Cryptography.ProtectedData.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\System.Security.Permissions.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\System.Security.Principal.Windows.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\System.Text.Encodings.Web.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\System.Text.Json.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\System.ValueTuple.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\Azure.Core.xml
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\Azure.Identity.xml
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\Microsoft.Data.SqlClient.pdb
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\Microsoft.Data.SqlClient.xml
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\Microsoft.Identity.Client.xml
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.xml
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\Microsoft.IdentityModel.Logging.xml
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\System.Buffers.xml
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\System.Configuration.ConfigurationManager.xml
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\System.Linq.Async.xml
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\System.Memory.xml
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\System.Numerics.Vectors.xml
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\System.Security.AccessControl.xml
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\System.Security.Permissions.xml
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\System.Security.Principal.Windows.xml
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\System.Text.Encodings.Web.xml
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\System.Text.Json.xml
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\System.ValueTuple.xml
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\obj\Debug\CarDealershipDatabase.csproj.AssemblyReference.cache
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\obj\Debug\CarDealershipDatabase.CreateElementForm.resources
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\obj\Debug\CarDealershipDatabase.DeleteDataForm.resources
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\obj\Debug\CarDealershipDatabase.Form1.resources
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\obj\Debug\CarDealershipDatabase.Properties.Resources.resources
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\obj\Debug\CarDealershipDatabase.ReadDataForm.resources
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\obj\Debug\CarDealershipDatabase.SelectElementForm.resources
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\obj\Debug\CarDealershipDatabase.UpdateElementForm.resources
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\obj\Debug\CarDealershipDatabase.csproj.GenerateResource.cache
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\obj\Debug\CarDealershipDatabase.csproj.CoreCompileInputs.cache
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\obj\Debug\CarDeale.D9B5A6DA.Up2Date
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\obj\Debug\CarDealershipDatabase.exe
+E:\Projects\Development\GitHub Repos\Project SGBD\ApplicationPart\obj\Debug\CarDealershipDatabase.pdb

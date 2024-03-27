@@ -80,4 +80,5 @@ BEGIN
     -- For example, enforcing constraints or performing validations
     PRINT 'Attempting to update car information...';
 END;
+
 GO

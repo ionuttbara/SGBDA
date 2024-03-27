@@ -14,7 +14,8 @@ INSERT INTO Models (ID, Denumire, An, BrandID) VALUES
 INSERT INTO Features (ID, Nume, Tip_Binar) VALUES
 (1, 'Geamuri electrice', 'y'),
 (2, 'Scaune încălzite', 'y'),
-(3, 'Cruise control', 'n');
+(3,'Cruise control', 'n');
+
 
 -- Inserare date in tabela Cars
 INSERT INTO Cars (ID, BrandID, ModelID, An, Culoare, Pret, Disponibilitate) VALUES

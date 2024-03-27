@@ -176,11 +176,17 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddBrandForm.cs">
+    <Compile Include="CreateElementForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddBrandForm.Designer.cs">
-      <DependentUpon>AddBrandForm.cs</DependentUpon>
+    <Compile Include="CreateElementForm.Designer.cs">
+      <DependentUpon>CreateElementForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteDataForm.Designer.cs">
+      <DependentUpon>DeleteDataForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -190,8 +196,29 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AddBrandForm.resx">
-      <DependentUpon>AddBrandForm.cs</DependentUpon>
+    <Compile Include="ReadDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReadDataForm.Designer.cs">
+      <DependentUpon>ReadDataForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectElementForm .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectElementForm .Designer.cs">
+      <DependentUpon>SelectElementForm .cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateElementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateElementForm.Designer.cs">
+      <DependentUpon>UpdateElementForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CreateElementForm.resx">
+      <DependentUpon>CreateElementForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteDataForm.resx">
+      <DependentUpon>DeleteDataForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -205,6 +232,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ReadDataForm.resx">
+      <DependentUpon>ReadDataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectElementForm .resx">
+      <DependentUpon>SelectElementForm .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateElementForm.resx">
+      <DependentUpon>UpdateElementForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
