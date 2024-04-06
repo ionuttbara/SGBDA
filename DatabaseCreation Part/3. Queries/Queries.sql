@@ -2,7 +2,7 @@
 
 SELECT *
 FROM Cars
-WHERE ShowroomID = (SELECT ID FROM Showrooms WHERE Nume = 'Nume Showroom');
+WHERE ID = (SELECT ID FROM Showrooms WHERE Nume = 'Nume Showroom');
 
 
 --- Interogare pentru a găsi cel mai vechi și cel mai nou model de mașină:2
