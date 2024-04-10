@@ -64,21 +64,63 @@ ON Sales
 AFTER INSERT
 AS
 BEGIN
-    -- Here you can define your desired actions after insertion into the Sales table
-    -- For example, logging the sales information into another table or sending notifications
-    PRINT 'A new sale has been recorded.';
+    SET NOCOUNT ON;
+
+    BEGIN TRY
+        -- Retrieve the inserted sales information
+        DECLARE @SaleID INT, @CarID INT, @CustomerID INT, @DealerID INT, @SaleDate DATE, @SaleAmount DECIMAL(10, 2);
+        SELECT @SaleID = ID, @CarID = CarID, @CustomerID = CustomerID, @DealerID = DealerID, @SaleDate = Data_vanzare, @SaleAmount = Suma
+        FROM inserted;
+
+        -- Log the sales information into another table
+        INSERT INTO SalesLog (SaleID, CarID, CustomerID, DealerID, SaleDate, SaleAmount)
+        VALUES (@SaleID, @CarID, @CustomerID, @DealerID, @SaleDate, @SaleAmount);
+
+        -- Send notification about the new sale
+        EXEC SendSalesNotification @SaleID;
+
+        PRINT 'A new sale has been recorded.';
+
+    END TRY
+    BEGIN CATCH
+        -- If an error occurs, rollback the transaction
+        IF @@TRANCOUNT > 0
+            ROLLBACK TRANSACTION;
+
+        -- Raise an error or log the error message
+        DECLARE @ErrorMessage NVARCHAR(4000) = ERROR_MESSAGE();
+        RAISERROR(@ErrorMessage, 16, 1);
+    END CATCH;
 END;
 GO
 
 -- Trigger 2: Before Update Trigger on Cars Table
-CREATE TRIGGER BeforeUpdateCars
+CREATE TRIGGER InsteadOfUpdateCars
 ON Cars
-BEFORE UPDATE
+INSTEAD OF UPDATE
 AS
 BEGIN
-    -- Here you can define your desired actions before updating the Cars table
-    -- For example, enforcing constraints or performing validations
-    PRINT 'Attempting to update car information...';
-END;
+    SET NOCOUNT ON;
 
+    BEGIN TRY
+        -- Check if the update violates any constraints (e.g., price increase limit)
+        IF UPDATE(Pret) AND EXISTS (SELECT 1 FROM inserted i JOIN deleted d ON i.ID = d.ID WHERE i.Pret > d.Pret * 1.1)
+        BEGIN
+            RAISERROR('Price increase limit exceeded.', 16, 1);
+            RETURN;
+        END
+
+        PRINT 'Attempting to update car information...';
+
+    END TRY
+    BEGIN CATCH
+        -- If an error occurs, rollback the transaction
+        IF @@TRANCOUNT > 0
+            ROLLBACK TRANSACTION;
+
+        -- Raise an error or log the error message
+        DECLARE @ErrorMessage NVARCHAR(4000) = ERROR_MESSAGE();
+        RAISERROR(@ErrorMessage, 16, 1);
+    END CATCH;
+END;
 GO
