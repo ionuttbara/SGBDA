@@ -26,7 +26,7 @@ namespace CarDealershipDatabase
             try
             {
                 // Connect to the database
-                string connectionString = "Data Source=IBBFA506II\\IBBSQLEXPRESS;Initial Catalog=SGBDAA;Integrated Security=True";
+                string connectionString = "Data Source=IBBFA506II\\IBBSQLEXPRESS;Initial Catalog=SGBDAA2;Integrated Security=True";
                 connection = new SqlConnection(connectionString);
                 connection.Open();
                 PopulateFilterComboBox();
@@ -59,7 +59,6 @@ namespace CarDealershipDatabase
             adapter.Fill(dataTable);
             dataGridView1.DataSource = dataTable;
             elementalText.Text = "Selected records: " + selectedTable;
-            // Obțineți și afișați numărul de înregistrări din tabel
             int recordCount = GetRecordCount(selectedTable);
             elementalText.Text += " | There are : " + recordCount.ToString() + " records.";
 
@@ -84,11 +83,11 @@ namespace CarDealershipDatabase
                 var result = form.ShowDialog();
                 if (result == DialogResult.OK)
                 {
-                    // Afiseaza mesajul de succes
-                    MessageBox.Show("Elementul a fost creat cu succes!", "Succes", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    
+                    MessageBox.Show("Added row", "Succes", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                     // Reincarca datele in DataGridView
-                    //      LoadDataIntoDataGridView(selectedTableName);
+                    //    LoadDataIntoDataGridView(selectedTableName);
                 }
             }
         }
@@ -131,32 +130,25 @@ namespace CarDealershipDatabase
         {
             try
             {
-                // Check if a valid cell is clicked (not header or empty row)
                 if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
                 {
-                    // Get the selected cell
                     DataGridViewCell selectedCell = dataGridView1.Rows[e.RowIndex].Cells[e.ColumnIndex];
 
-                    // Get the table name, column name, and row ID
                     string tableName = tablesCombo.SelectedItem.ToString();
                     string columnName = dataGridView1.Columns[e.ColumnIndex].HeaderText;
                     int rowID = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells["ID"].Value);
                     using (UpdateElementForm updateForm = new UpdateElementForm())
                     {
-                        // Set the initial value in the input dialog to the current cell value
                         updateForm.textBoxInput.Text = selectedCell.Value?.ToString() ?? "";
 
-                        // Show the update form
                         if (updateForm.ShowDialog() == DialogResult.OK)
                         {
-                            // Update the cell value in the DataGridView
                             string newValue = updateForm.InputValue;
                             if (!string.IsNullOrEmpty(newValue))
                             {
                                 selectedCell.Value = newValue;
                             }
 
-                            // Update the database record
                             string updateQuery = $"UPDATE {tableName} SET {columnName} = @NewValue WHERE ID = @RowID";
                             using (SqlCommand command = new SqlCommand(updateQuery, connection))
                             {
@@ -190,23 +182,21 @@ namespace CarDealershipDatabase
         {
             string searchText = searchTextBox.Text.Trim().ToLower();
 
-            // Check if there's a data source
             if (dataGridView1.DataSource is DataTable dataTable)
             {
-                // Get the default view of the DataTable
                 DataView dataView = dataTable.DefaultView;
 
-                // Apply a filter to the default view based on the search text
                 if (!string.IsNullOrEmpty(searchText))
                 {
                     string filterExpression = string.Join(" OR ", dataTable.Columns.Cast<DataColumn>()
                                                                 .Select(col => $"CONVERT([{col.ColumnName}], System.String) LIKE '%{searchText}%'"));
                     dataView.RowFilter = filterExpression;
+                    elementalText.Text = "Search Results of searching:"+searchText;
                 }
                 else
                 {
-                    // If the search text is empty, clear the filter
                     dataView.RowFilter = string.Empty;
+                    elementalText.Text = "No results";
                 }
             }
         }
@@ -230,35 +220,34 @@ namespace CarDealershipDatabase
                 string selectedQuery = "";
                 switch (comboBox2.SelectedIndex)
                 {
-                    case 0: // Selectare a tuturor mașinilor dintr-un anumit showroom
+                    case 0: 
+                        break;
+
+                    case 1: 
                         selectedQuery = @"
                     SELECT *
                     FROM Cars";
+                        elementalText.Text = "Showing all cars from database.";
                         break;
-
-                    case 1: // Selectare a tuturor mașinilor dintr-un anumit showroom
-                        selectedQuery = @"
-                    SELECT *
-                    FROM Cars
-                    WHERE ShowroomID = (SELECT ID FROM Showrooms WHERE Nume = 'Nume Showroom')";
-                        break;
-                    case 2: // Selectare a celor mai vechi și celor mai noi modele de mașini
+                    case 2: 
                         selectedQuery = @"
                     SELECT MIN(An) AS CelMaiVechiModel, MAX(An) AS CelMaiNouModel
                     FROM Cars";
+                        elementalText.Text = "Oldest and newest year from listed cars.";
                         break;
-                    case 3: // Detalii testdrive pentru masinile de culoare alba
+                    case 3: 
                         selectedQuery = @"SELECT *
-FROM TestDrivesDetailsView
-WHERE CarColor = 'alb';";
+FROM TestDrivesDetailsView";
+                        elementalText.Text = "TestDrive list for white cars.";
                         break;
-                    case 4: // Lista JSON-Array cu toate Caracteristicile primei masini
+                    case 4: 
                         selectedQuery = @"DECLARE @CarID INT = 1; -- Înlocuiește 1 cu ID-ul real al mașinii
 
 SELECT (SELECT Nume
         FROM Features
         WHERE ID IN (SELECT ID FROM Features WHERE ID= @CarID)
         FOR JSON PATH) AS CarFeatures;";
+                        elementalText.Text = "JSON-Array with features of first car.";
                         break;
                     case 5: // Clientii care au cumparat mai mult de o masina
                         selectedQuery = @"SELECT cu.ID, cu.Nume, cu.Prenume, COUNT(s.CarID) AS TotalCarsBought
@@ -266,6 +255,7 @@ FROM Customers cu
 INNER JOIN Sales s ON cu.ID = s.CustomerID
 GROUP BY cu.ID, cu.Nume, cu.Prenume
 HAVING COUNT(s.CarID) > 1;";
+                        elementalText.Text = "Showning customers who buyed more than 1 car.";
                         break;
                     default:
                         break;
@@ -295,17 +285,18 @@ HAVING COUNT(s.CarID) > 1;";
             try
             {
                 comboBox2.Items.Clear();
-                comboBox2.Items.Add("Toate masinile existente");
-                comboBox2.Items.Add("Mașini dintr-un showroom specific");
-                comboBox2.Items.Add("Cele mai vechi și cele mai noi modele de mașini");
-                comboBox2.Items.Add("Detalii testdrive pentru masinile de culoare alba");
-                comboBox2.Items.Add("Lista JSON-Array cu toate Caracteristicile primei masini");
-                comboBox2.Items.Add("Clientii care au cumparat mai mult de o masina");
+                comboBox2.Items.Add("Select any filters...");
+                comboBox2.Items.Add("All existing cars");
+                comboBox2.Items.Add("Oldest and newest car models by year");
+                comboBox2.Items.Add("Test drive details for white cars");
+                comboBox2.Items.Add("JSON-Array list with all features of the first car");
+                comboBox2.Items.Add("Customers who have purchased more than one car");
+
                 comboBox2.SelectedIndex = 0;
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Eroare la popularea filtrului: " + ex.Message, "Eroare", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Error of filter processing!: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }
